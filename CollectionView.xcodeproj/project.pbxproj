@@ -13,6 +13,8 @@
 		84A571EF26BC3F3500A56F68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A571ED26BC3F3500A56F68 /* Main.storyboard */; };
 		84A571F126BC3F3700A56F68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A571F026BC3F3700A56F68 /* Assets.xcassets */; };
 		84A571F426BC3F3700A56F68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A571F226BC3F3700A56F68 /* LaunchScreen.storyboard */; };
+		84A571FE26BC460700A56F68 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A571FD26BC460700A56F68 /* MovieCollectionViewCell.swift */; };
+		84A5720026BC492400A56F68 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A571FF26BC492400A56F68 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		84A571F026BC3F3700A56F68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84A571F326BC3F3700A56F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84A571F526BC3F3700A56F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A571FD26BC460700A56F68 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		84A571FF26BC492400A56F68 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				84A571F026BC3F3700A56F68 /* Assets.xcassets */,
 				84A571F226BC3F3700A56F68 /* LaunchScreen.storyboard */,
 				84A571F526BC3F3700A56F68 /* Info.plist */,
+				84A571FD26BC460700A56F68 /* MovieCollectionViewCell.swift */,
+				84A571FF26BC492400A56F68 /* Movie.swift */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 				84A571EC26BC3F3500A56F68 /* ViewController.swift in Sources */,
 				84A571E826BC3F3500A56F68 /* AppDelegate.swift in Sources */,
 				84A571EA26BC3F3500A56F68 /* SceneDelegate.swift in Sources */,
+				84A571FE26BC460700A56F68 /* MovieCollectionViewCell.swift in Sources */,
+				84A5720026BC492400A56F68 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
